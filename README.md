@@ -11,26 +11,19 @@ UDF’s are used to extend the functions of the framework and re-use these funct
 2. Pyspark UDF
 3. Pyspark Pandas UDF
 
-### Differences
-
-
-
-need...
-
 ## Pyspark UDFs
-Pyspark UDFs are customizable reusable functions. They work best on small volumes of data, making them not beneficial for out big datasets. 
+Pyspark UDFs are customizable reusable functions. They work best on small volumes of data, making them not beneficial for our big datasets. 
 
-If there is not a built in sql function that meets specific needs of a function, then UDFs are benifical. Otherwise, UDFs take more computatiponal power than built in sql functions, making them slow and not cost effective.
+If there is not a built-in SQL function that meets the specific needs of a function, then UDFs are beneficial. Otherwise, UDFs take more computational power than built-in SQL functions, making them slow and not cost-effective.
 
 ## Pandas UDFs
-Pandas UDFs are very customizable. Compared to Pyspark UDFs they are faster, but are still slow compared to built in funcitons. 
-
-## Codeing Challenge 
+Pandas UDFs are also very customizable and reusable. Compared to Pyspark UDFs they are faster but are still slow compared to built-in functions and standard UDFs. Another difference between the two is their input and output. Pandas UDFs take and return vectors. This is why they are sometimes referred to as vectorized UDFs.
 
 ## Kahoot Quiz
-[Kahoot Link](link goes here)
+[Kahoot Link](https://create.kahoot.it/share/pandas-and-pyspark-udf-s/8cfb984a-79f7-4d66-99ac-50871f56ba81)
 
 ## Resources
-* [PySpark UDF (User Defined Function) (spark by examples artticle)](https://sparkbyexamples.com/pyspark/pyspark-udf-user-defined-function/)
+* [PySpark UDF (User Defined Function) (spark by examples article)](https://sparkbyexamples.com/pyspark/pyspark-udf-user-defined-function/)
 * [pandas user-defined functions (databricks article)](https://docs.databricks.com/spark/latest/spark-sql/udf-python-pandas.html)
+* [Spark UDF — Deep Insights in Performance (medium article)](https://medium.com/quantumblack/spark-udf-deep-insights-in-performance-f0a95a4d8c62)
 * [Spark UDF — Deep Insights in Performance (medium article)](https://medium.com/quantumblack/spark-udf-deep-insights-in-performance-f0a95a4d8c62)
